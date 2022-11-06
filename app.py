@@ -202,7 +202,7 @@ class DirectorsView(Resource):
 
         try:
             directors = Director.query.all()
-            return movies_schema.dump(directors), 200, {'Content-Type': 'application/json; charset=utf-8'}
+            return directors_schema.dump(directors), 200, {'Content-Type': 'application/json; charset=utf-8'}
 
         except Exception as e:
             return str(e), 404
@@ -229,7 +229,7 @@ class DirectorView(Resource):
             if not director:
                 return "Такого продюсера нет в базе данных", 404
 
-            return movie_schema.dump(director), 200, {'Content-Type': 'application/json; charset=utf-8'}
+            return director_schema.dump(director), 200, {'Content-Type': 'application/json; charset=utf-8'}
 
         except Exception as e:
             return str(e), 404
@@ -272,7 +272,7 @@ class GenresView(Resource):
 
         try:
             genres = Genre.query.all()
-            return movies_schema.dump(genres), 200, {'Content-Type': 'application/json; charset=utf-8'}
+            return genres_schema.dump(genres), 200, {'Content-Type': 'application/json; charset=utf-8'}
 
         except Exception as e:
             return str(e), 404
@@ -299,7 +299,7 @@ class GenreView(Resource):
             if not genre:
                 return "Такого жанра нет в базе данных", 404
 
-            return movie_schema.dump(genre), 200, {'Content-Type': 'application/json; charset=utf-8'}
+            return genre_schema.dump(genre), 200, {'Content-Type': 'application/json; charset=utf-8'}
 
         except Exception as e:
             return str(e), 404
