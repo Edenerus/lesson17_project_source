@@ -1,0 +1,422 @@
+POST http://localhost:5000/directors/
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+<> 2022-11-06T220831.201.json
+
+###
+
+GET http://localhost:5000/directors/
+Accept: application/json
+
+<> 2022-11-06T220829.200.json
+
+###
+
+GET http://localhost:5000/directors/43333
+Accept: application/json
+
+<> 2022-11-06T220824.404.json
+
+###
+
+PUT http://localhost:5000/directors/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+###
+
+GET http://localhost:5000/directors/
+Accept: application/json
+
+<> 2022-11-06T220817.200.json
+
+###
+
+PATCH http://localhost:5000/genres/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+<> 2022-11-06T220658.405.json
+
+###
+
+DELETE http://localhost:5000/genres/1
+Accept: application/json
+
+###
+
+PUT http://localhost:5000/genres/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+###
+
+GET http://localhost:5000/genres/1
+Accept: application/json
+
+<> 2022-11-06T220638.200.json
+
+###
+
+GET http://localhost:5000/genres/
+Accept: application/json
+
+<> 2022-11-06T220635.200.json
+
+###
+
+POST http://localhost:5000/genres/
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+<> 2022-11-06T220633.201.json
+
+###
+
+PATCH http://localhost:5000/directors/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+<> 2022-11-06T220621.405.json
+
+###
+
+PATCH http://localhost:5000/directors/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+<> 2022-11-06T220620.405.json
+
+###
+
+DELETE http://localhost:5000/directors/1
+Accept: application/json
+
+<> 2022-11-06T220613.404.json
+
+###
+
+DELETE http://localhost:5000/directors/1
+Accept: application/json
+
+###
+
+PUT http://localhost:5000/directors/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+###
+
+PUT http://localhost:5000/directors/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+###
+
+GET http://localhost:5000/directors/43333
+Accept: application/json
+
+<> 2022-11-06T220603.404.json
+
+###
+
+GET http://localhost:5000/directors/43333
+Accept: application/json
+
+<> 2022-11-06T220602.404.json
+
+###
+
+GET http://localhost:5000/directors/
+Accept: application/json
+
+<> 2022-11-06T220600.200.json
+
+###
+
+GET http://localhost:5000/directors/43333
+Accept: application/json
+
+<> 2022-11-06T220415.404.json
+
+###
+
+GET http://localhost:5000/directors/43333
+Accept: application/json
+
+<> 2022-11-06T220413.404.json
+
+###
+
+GET http://localhost:5000/directors/43333
+Accept: application/json
+
+<> 2022-11-06T220407.404.json
+
+###
+
+GET http://localhost:5000/directors/43333
+Accept: application/json
+
+<> 2022-11-06T220221.405.json
+
+###
+
+GET http://localhost:5000/directors/43333
+Accept: application/json
+
+<> 2022-11-06T220220.405.json
+
+###
+
+GET http://localhost:5000/directors/
+Accept: application/json
+
+<> 2022-11-06T220216.200.json
+
+###
+
+GET http://localhost:5000/directors/
+Accept: application/json
+
+<> 2022-11-06T220214.200.json
+
+###
+
+POST http://localhost:5000/directors/
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+<> 2022-11-06T220211.201.json
+
+###
+
+GET http://localhost:5000/directors/
+Accept: application/json
+
+<> 2022-11-06T220009.405.json
+
+###
+
+POST http://localhost:5000/directors/
+Content-Type: application/json
+
+{
+  "name": "superka"
+}
+
+<> 2022-11-06T220007.201.json
+
+###
+
+PATCH http://localhost:5000/movies/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "STRASHNO"
+}
+
+###
+
+PUT http://localhost:5000/movies/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "GOVNO",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+###
+
+GET http://localhost:5000/movies/1
+Accept: application/json
+
+<> 2022-11-06T214420.200.json
+
+###
+
+GET http://localhost:5000/movies/1
+Accept: application/json
+
+<> 2022-11-06T214253.404.json
+
+###
+
+GET http://localhost:5000/movies/
+Accept: application/json
+
+<> 2022-11-06T214249.200.json
+
+###
+
+POST http://localhost:5000/movies/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-11-06T214235.201.json
+
+###
+
+POST http://localhost:5000/movies/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-11-06T214118.405.json
+
+###
+
+POST http://localhost:5000/movies/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-11-06T214104.405.json
+
+###
+
+POST http://localhost:5000/movies/
+Content-Type: application/json
+
+{
+  "title": "title",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-11-06T213728.405.json
+
+###
+
+PUT http://localhost:5000/movies/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "GOVNO",
+  "description": "description",
+  "trailer": "trailer",
+  "year": 1222,
+  "rating": 1,
+  "genre_id": 1,
+  "director_id": 1
+}
+
+<> 2022-11-06T213708.404.json
+
+###
+
+DELETE http://localhost:5000/movies/1
+Accept: application/json
+
+<> 2022-11-06T213701.200.json
+
+###
+
+PATCH http://localhost:5000/movies/1
+Accept: application/json
+Content-Type: application/json
+
+{
+  "title": "STRASHNO"
+}
+
+<> 2022-11-06T213644.200.json
+
+###
+
+GET http://localhost:5000/movies/1
+Accept: application/json
+
+<> 2022-11-06T213610.200.json
+
+###
+
+GET http://localhost:5000/movies/1
+Accept: application/json
+
+<> 2022-11-06T213534.200.json
+
+###
+
+GET http://localhost:5000/movies/
+Accept: application/json
+
+<> 2022-11-06T203311.200.json
+
+###
+
